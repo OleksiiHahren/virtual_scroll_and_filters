@@ -5,7 +5,7 @@ export const selectConfig = {
   lazyLoading: false,
   badgeShowLimit: 1,
   clearAll: false,
-  classes: 'dtm-input-wz-pd',
+  classes: 'app-input-wz-pd',
   limitSelection: false,
 
 };
