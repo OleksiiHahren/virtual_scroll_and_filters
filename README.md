@@ -1,4 +1,4 @@
-# virtual_scroll_and_filters Test
+# Virtual scroll and filters application
 
 ## FOR START PROJECT
 After you will have installed all dependencies run commands:
