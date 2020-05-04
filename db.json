@@ -1,0 +1,362 @@
+{
+  "films": [
+    {
+      "id": 1,
+      "name": "Alf 3",
+      "channel": "NETFLIX",
+      "season": 1,
+      "year": "2018",
+      "genre":
+        "comedy"
+
+    },
+    {
+      "id": 2,
+      "name": "I am Legend",
+      "channel": "NETFLIX",
+      "season": 3,
+      "year": "2018",
+      "genre":
+        "comedy"
+          },
+    {
+      "id": 4,
+      "name": "Iron Man",
+      "channel": "NETFLIX",
+      "season": 3,
+      "year": "2018",
+      "genre":
+        "comedy, crime"
+    },
+    {
+      "id": 6,
+      "name": "Matrix",
+      "channel": "NETFLIX",
+      "season": 3,
+      "year": "1999",
+      "genre":
+        "comedy"
+
+    },
+    {
+      "id": 8,
+      "name": "Escape",
+      "channel": "CNN",
+      "season": 3,
+      "year": "1988",
+      "genre":
+        "comedy"
+    },
+    {
+      "id": 55,
+      "name": "Sun",
+      "channel": "CNN",
+      "season": 3,
+      "year": "1988",
+      "genre":
+        "drama"
+    },
+    {
+      "id": 1,
+      "name": "Milestone",
+      "channel": "AMC",
+      "season": 3,
+      "year": "1988",
+      "genre":
+        "horror"
+
+    },
+    {
+      "id": 1,
+      "name": "Texas",
+      "channel": "AMC",
+      "year": "1988",
+      "genre":
+        "drama"
+    },
+    {
+      "id": 1,
+      "name": "Dragon",
+      "channel": "NETFLIX",
+      "season": 3,
+      "year": "2001",
+      "genre":
+        "drama, crime"
+    },
+    {
+      "id": 1,
+      "name": "JSON",
+      "channel": "NETFLIX",
+      "year": "2001",
+      "genre":
+        "comedy"
+    },
+    {
+      "id": 55,
+      "name": "Wind river 2",
+      "channel": "AMC",
+      "season": 3,
+      "year": "2019",
+      "genre":
+        "crime, drama"
+
+    },
+    {
+      "id": 44,
+      "name": "Terminator",
+      "channel": "AMC",
+      "season": 0,
+      "year": "2020",
+      "genre":
+        "drama, crime"
+    },
+    {
+      "id": 31,
+      "name": "HTTP",
+      "channel": "NETFLIX",
+      "year": "2020",
+      "genre":
+        "drama, horror"
+    },
+    {
+      "id": 121,
+      "name": "Hacker",
+      "channel": "AMC",
+      "year": "1988",
+      "genre":
+        "drama, crime"
+
+    },
+    {
+      "id": 22,
+      "name": "Film 100500",
+      "channel": "NETFLIX",
+      "year": "2003",
+      "genre":
+        "drama, crime"
+    },
+    {
+      "id": 15,
+      "name": "Super Film",
+      "channel": "NETFLIX",
+      "year": "2001",
+      "genre":
+        "drama, comedy, tragedy"
+    },
+    {
+      "id": 14,
+      "name": "Friends 100500",
+      "channel": "CNN",
+      "year": "2003",
+      "genre":
+        "comedy"
+
+    },
+    {
+      "id": 12,
+      "name": "Titanik",
+      "channel": "CNN",
+      "year": "2003",
+      "genre":
+        "horror"    },
+    {
+      "id": 3,
+      "name": "Guano apes",
+      "channel": "AMC",
+      "year": "2002",
+      "genre":   "crime"
+    },
+    {
+      "id": 2,
+      "name": "Back to the Future",
+      "channel": "AMC",
+      "season": 8,
+      "year": "1988",
+      "genre":
+        "comedy"
+    },
+    {
+      "id": 1,
+      "name": "Alf",
+      "channel": "NETFLIX",
+      "season": 1,
+      "year": "1988",
+      "genre":
+      "comedy"
+
+    },
+    {
+      "id": 2,
+      "name": "Legend",
+      "channel": "NETFLIX",
+      "season": 3,
+      "year": "2003",
+      "genre":
+      "comedy"
+    },
+    {
+      "id": 4,
+      "name": "Iron Man",
+      "channel": "NETFLIX",
+      "season": 33,
+      "year": "2018",
+      "genre":
+      "crime"
+    },
+    {
+      "id": 6,
+      "name": "Matrix",
+      "channel": "NETFLIX",
+      "season": 3,
+      "year": "2001",
+      "genre":
+      "crime, tragedy"
+
+    },
+    {
+      "id": 8,
+      "name": "Escape",
+      "channel": "CNN",
+      "season": 5,
+      "year": "2002",
+      "genre":
+      "comedy"
+    },
+    {
+      "id": 55,
+      "name": "Film 2",
+      "channel": "CNN",
+      "season": 3,
+      "year": "2001",
+      "genre":
+      "drama"
+    },
+    {
+      "id": 1,
+      "name": "Sin City",
+      "channel": "NETFLIX",
+      "season": 6,
+      "year": "1988",
+      "genre":
+      "horror, crime"
+
+    },
+    {
+      "id": 1,
+      "name": "Server man",
+      "channel": "Netflix",
+      "season": 10,
+      "year": "2002",
+      "genre":
+      "drama"
+    },
+    {
+      "id": 1,
+      "name": "Batman",
+      "channel": "NETFLIX",
+      "season": 3,
+      "year": "2020",
+      "genre":
+      "drama, crime"
+    },
+    {
+      "id": 1,
+      "name": "Detective pikachu",
+      "channel": "NETFLIX",
+      "year": "1988",
+      "genre":
+      "comedy, crime"
+    },
+    {
+      "id": 55,
+      "name": "Wind river",
+      "channel": "AMC",
+      "season": 23,
+      "year": "2020",
+      "genre":
+      "crime, tragedy, horror"
+
+    },
+    {
+      "id": 44,
+      "name": "Gentleman",
+      "channel": "AMC",
+      "season": 10,
+      "year": "2020",
+      "genre":
+      "drama, tragedy"
+    },
+    {
+      "id": 31,
+      "name": "Best Film",
+      "channel": "NETFLIX",
+      "year": "2020",
+      "genre":
+      "drama, horror"
+    },
+    {
+      "id": 121,
+      "name": "Some original name",
+      "channel": "AMC",
+      "year": "2020",
+      "genre":
+      "drama, comedy"
+
+    },
+    {
+      "id": 22,
+      "name": "Hitman",
+      "channel": "NETFLIX",
+      "year": "2020",
+      "genre":
+      "drama, horror"
+    },
+    {
+      "id": 15,
+      "name": "Cat man",
+      "channel": "NETFLIX",
+      "year": "2001",
+      "genre":
+      "drama, comedy, tragedy"
+    },
+    {
+      "id": 14,
+      "name": "Friends",
+      "channel": "CNN",
+      "year": "2003",
+      "genre":
+      "comedy"
+
+    },
+    {
+      "id": 12,
+      "name": "Titanik 3",
+      "channel": "CNN",
+      "year": "2002",
+      "genre":
+      "crime"    },
+    {
+      "id": 3,
+      "name": "Guano apes",
+      "channel": "AMC",
+      "year": "2002",
+      "genre":   "detective"
+    },
+    {
+      "id": 2,
+      "name": "Police Academy",
+      "channel": "AMC",
+      "year": "1988",
+      "genre":
+      "comedy"
+    },
+    {
+      "id": 2,
+      "name": "Godfather2",
+      "channel": "AMC",
+      "year": "1988",
+      "genre":
+      "crime"
+    }
+  ]
+}

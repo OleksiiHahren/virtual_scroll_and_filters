@@ -1,0 +1,14 @@
+:host{
+  display: flex;
+  width: 100%;
+  .header-table{
+    background: purple;
+    display: inline-grid;
+    height: 20px;
+    padding: 10px;
+    margin: 20px 0 0 0;
+    color: white;
+    width: 100%;
+  }
+
+}

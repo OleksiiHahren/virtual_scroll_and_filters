@@ -1,0 +1,14 @@
+  <div class="header-table" *ngFor="let cell of tableHeaderData"
+  >
+      <span *ngIf="!cell.canSort else sortElement">
+        {{cell.name}}
+      </span>
+    <ng-template #sortElement>
+      <app-sort-by [orderByField]="cell.id"
+                   [currentKeyEqual]="cell.id === currentKeySort"
+                   (emitOrder)="setCurrentKeySortMethod($event)"
+      >
+        {{cell.name}}
+      </app-sort-by>
+    </ng-template>
+  </div>

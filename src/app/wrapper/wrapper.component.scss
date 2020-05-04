@@ -1,0 +1,42 @@
+:host{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background:lightcyan;
+  height:100vh;
+  .main-wrapper{
+    height:80vh;
+    max-width: 860px;
+    min-width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .horizontal-section{
+      justify-content: space-between;
+      width:100%;
+      display: flex;
+      margin: 20px 0;
+
+      .dtm-input-wz-pd {
+        width: 150px;
+        height:45px;
+        padding: 0 20px 0 0;
+        background-color: orange;
+        border: 1px solid orange;
+        .cuppa-dropdown{
+          display: none;
+          .c-btn{
+            display: grid;
+          }
+          .clear-all {
+            display: none;
+          }
+        }
+
+
+      }
+
+    }
+  }
+}

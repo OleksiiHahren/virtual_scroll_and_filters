@@ -1,0 +1,24 @@
+:host {
+  cursor: pointer;
+  .dtm-order-by {
+    display:flex;
+    .general-text{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: 10px;
+      .arrow-wrapper {
+        display: flex;
+        flex-direction: column;
+        font-size: 8px;
+        .arrow{
+          margin-left: 10px;
+          color:white;
+        }
+        .arrow.active {
+          color: burlywood;
+        }
+      }
+    }
+  }
+}

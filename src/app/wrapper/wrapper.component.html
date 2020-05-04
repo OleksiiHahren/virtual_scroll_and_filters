@@ -1,0 +1,41 @@
+<div class="main-wrapper">
+<div class="horizontal-section">
+
+  <angular2-multiselect
+    [data]="genresFilms"
+    [(ngModel)]="genresActiveKey"
+    [settings]="prepareLabelForSelect(selectConfig, wrapperConf.chooseGenre)"
+    (onSelect)="setParamsInUrl(wrapperConf.genre, genresActiveKey)"
+    (onDeSelect)="removeParamInUrl(wrapperConf.genre)"
+
+  >
+  </angular2-multiselect>
+  <angular2-multiselect
+    [data]="yearsOfFilms"
+    [(ngModel)]="yearActiveKey"
+    [settings]="prepareLabelForSelect(selectConfig, wrapperConf.chooseYear)"
+    (onSelect)="setParamsInUrl(wrapperConf.year, yearActiveKey)"
+    (onDeSelect)="removeParamInUrl(wrapperConf.year)"
+  >
+  </angular2-multiselect>
+  <angular2-multiselect
+    [data]="channelsOfFilms"
+    [(ngModel)]="channelsActiveKey"
+    [settings]="prepareLabelForSelect(selectConfig, wrapperConf.chooseChannel)"
+    (onSelect)="setParamsInUrl(wrapperConf.channel, channelsActiveKey)"
+    (onDeSelect)="removeParamInUrl(wrapperConf.channel)"
+
+  >
+  </angular2-multiselect>
+</div>
+<app-table-header
+[tableHeaderData]="headerData"
+(emitCurrentKeySort)="setOrderParams($event)"
+>
+
+</app-table-header>
+<app-table-body
+  [tableData]="tableData$ | async"
+>
+</app-table-body>
+</div>

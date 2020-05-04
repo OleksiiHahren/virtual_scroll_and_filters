@@ -1,0 +1,9 @@
+<div class="dtm-order-by" (click)="changeSortBy()">
+  <div class="general-text">
+    <ng-content></ng-content>
+    <div class="arrow-wrapper">
+      <span [ngClass]="(currentKeyEqual && asc) ? 'active':''" class="arrow">▲</span>
+      <span [ngClass]="(currentKeyEqual && !asc) ? 'active':''" class="arrow">▼</span>
+    </div>
+  </div>
+</div>
